@@ -42,23 +42,19 @@
     z-index: -1;
 }
 
+.plusSign{
+    color: orange;
+}
+
 .stats{
     width: 100%;
     justify-content: space-between;
 }
 
-.stat{
-    margin-left: 1vh;
-    font-size: 12px;
-    padding-right: 1dvh;
-}
 
 .stat>:nth-child(1){
-    font: 2rem;
-}
-
-.stat>:nth-child(1)>:last-child{
-    color: orange;
+    font-size: 2rem;
+    padding-left: 2vh;
 }
 
 .search-bar{
@@ -67,7 +63,11 @@
     border: solid 3px rgba(120, 120, 120, 0.375, alpha);
     padding: 0.5rem 1rem;
     justify-content: space-between;
-    margin-right: 2dvh;
+    width: 100%;
+}
+
+.search-bar>button{
+    margin-left: 11dvh;
 }
 
 .search-bar > input{
@@ -79,10 +79,11 @@
 
 .image-container{
     width: 30rem;
-    height: clamp(20rem,35rem+1vh,53rem);
+    height: 41rem;
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
     border: 8px solid rgba(255, 255, 255, 0.12);
+    margin-left: 3dvh;
 }
 
 .image-container>img{
