@@ -18,7 +18,9 @@
 }
 
 .h-menu > button{
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: 0dvh;
 }
 
 .h-container > img{
